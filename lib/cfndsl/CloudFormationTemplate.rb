@@ -17,6 +17,7 @@ module CfnDsl
     end
 
     @@globalRefs = { 
+       "AWS::AccountId" => 1,
        "AWS::NotificationARNs" => 1, 
        "AWS::Region" => 1,
        "AWS::StackId" => 1,
