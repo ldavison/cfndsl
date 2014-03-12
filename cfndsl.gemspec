@@ -16,6 +16,7 @@ Gem::Specification.new do |s|
                     'lib/cfndsl/Mappings.rb',
                     'lib/cfndsl/Resources.rb',
                     'lib/cfndsl/Metadata.rb',
+                    'lib/cfndsl/UpdatePolicy.rb',
                     'lib/cfndsl/Parameters.rb',
                     'lib/cfndsl/Outputs.rb',
                     'lib/cfndsl/Errors.rb',

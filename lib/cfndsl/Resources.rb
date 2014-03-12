@@ -1,5 +1,6 @@
 require 'cfndsl/JSONable'
 require 'cfndsl/Metadata'
+require 'cfndsl/UpdatePolicy'
 require 'cfndsl/Properties'
 
 module CfnDsl  
@@ -7,7 +8,7 @@ module CfnDsl
     ##
     # Handles Resource objects
     dsl_attr_setter :Type, :DependsOn, :DeletionPolicy
-    dsl_content_object :Property, :Metadata
+    dsl_content_object :Property, :Metadata, :UpdatePolicy
 
     def addTag(name, value, propagate=nil)
       self.send(:Tag) {
